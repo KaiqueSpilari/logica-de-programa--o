@@ -40,6 +40,14 @@ let numeros = [10, 20, 30, 40];
 // Saída: Soma = 100
 ------------------------------------------------------------------------
 */
+console.log("----------atividade1------------");
+const imparpar = (num) =>{
+return num % 2 == 0 ? "O numero é par!" : "O numero é impar!";
+};
+console.log(imparpar(10));
+console.log(imparpar(3));
+console.log(imparpar(2));
+
 console.log("----------atividade2------------");
 var tabuada = 5
 console.log(tabuada,"x 1 =", tabuada*1)
@@ -62,7 +70,7 @@ function somar(val1, val2, val3){
   }
     console.log("10 + 15 + 20 =", somar(10, 15, 20));
 
-    
+
 console.log("----------atividade5------------");
 var numeros = [3, 5, 1, 8, 6, 2];
 console.table(numeros);
