@@ -95,3 +95,67 @@ var resultado = preco <= 100 ? "Ta barato!" : "vish, ta muito caro!";
 // }
 console.log("Preço: R$", preco, "-", resultado);
 
+//Desvio condicional - Switch Case 
+console.log("-------------------switch Case----------------------");
+switch (1){ 
+    case 1:
+        console.log("O usuario digitou o número 1!");
+    break;
+
+default:
+  console.log("O usuario informou um numero diferente de 1!");
+  break;
+}
+
+console.log("-----------------------------------------");
+//Menu de seleção 
+var menuSelecionado = "Home";
+
+switch (menuSelecionado) {
+  case "Home":
+    console.log("Você clicou no link 'home'!");
+    break;
+ case "Quem somos":
+  console.log("Você clicou no link 'Quem somos'");
+  break;
+  case "Contato":
+    console.log("Você clicou no link 'Contato'");
+    break;
+
+  default:
+    console.log("Opçao inválida de menu");
+    break;
+}
+
+// Varias opções com mesmo case - Switch Case
+var mes = 15;
+
+switch (mes) { 
+ case 1: 
+ case 2:
+ case 3:
+    console.log("primeiro trimestre");
+    break;
+
+ case 4: 
+ case 5:
+ case 6:
+    console.log("Segundo trimestre");
+    break;
+
+case 7: 
+case 8:
+case 9:
+    console.log("Terceiro trimestre");
+    break;
+
+case 10: 
+case 11:
+case 12:
+    console.log("Quarto trimestre");
+    break;
+
+default: 
+ console.log("Mês inválido")
+ break;
+}
